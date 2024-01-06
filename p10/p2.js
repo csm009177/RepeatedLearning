@@ -14,10 +14,10 @@ function test(name, number, price) {
       return privPrice;
     },
     setNumber : function(newNumber) {
-      privNumber = newNumber;
+      this.privNumber = newNumber;
     },   
     setPrice : function(newPrice) {
-      privPrice = newPrice;
+      this.privPrice = newPrice;
     },   
   }
 }
